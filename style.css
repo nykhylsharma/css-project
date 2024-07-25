@@ -1,11 +1,55 @@
 body{
-    font-family: "Roboto"
+    font-family: "Roboto";
+    margin: 0;
 }
 
 .nav-bar, .hero-content{
     background-color: #1f2937;
     color: white;
+    display: flex;
 }
 .header{
     font-size: 24px;
+}
+
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.header-links{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.hero-content{
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+
+.hero-content > div > h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+
+}
+
+.hero-content > div > p {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.hero-content > div > button {
+    padding: 8px 32px;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+    
+
 }
