@@ -28,7 +28,7 @@ body{
     gap: 16px;
 }
 
-.hero-content .hero-header {
+.hero-content .hero-text {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
@@ -41,7 +41,7 @@ body{
 
 }
 
-.hero-content > div > button {
+.hero-content .hero-button {
     padding: 8px 32px;
     font-size: 18px;
     background-color: #3882f6;
@@ -57,19 +57,19 @@ body{
     align-items: center;
 }
 
-.info-container > h3{
+.info-heading{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
 }
 
-.info-container > ul{
+.info-list{
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 48px;
 }
 
-.info-container .info-img{
+.info-img{
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -77,6 +77,60 @@ body{
     border-radius: 8px;
 }
 
-.info-container .info-para{
+.info-para{
     text-align: center;
+    width: 150px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 30%;
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+.quote-by{
+    margin: 0;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 5% 10%;
+    color: #e5e7eb;
+    padding: 32px;
+}
+.cta-dialog > h3 , .cta-dialog > p {
+    margin: 8px 0;
+}
+
+.cta-button{
+    padding: 8px 32px;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 32px;
 }
