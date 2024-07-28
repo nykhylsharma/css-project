@@ -1,2 +1,2 @@
 # css-project
-The Odin Project's CSS exercise
+The Odin Project's Final CSS project
