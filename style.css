@@ -17,6 +17,7 @@ body{
 
 .hero-content{
     padding: 64px 10%;
+    gap: 8px;
 }
 .nav-bar .header{
     font-size: 24px;
@@ -67,6 +68,8 @@ body{
     list-style: none;
     display: flex;
     gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .info-img{
